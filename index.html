@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Facebook</h1>
+        </div>
+        <div class="search-bar">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" placeholder="Search Facebook">
+        </div>
+        <div class="profile-section">
+            <div class="profile-icon">👤</div>
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i></a></li>
+                <li><a href="#"><i class="fas fa-users"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
+                <li><a href="#"><i class="fas fa-bell"></i></a></li>
+                <li><a href="#"><i class="fas fa-caret-down"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="left-sidebar">
+            <div class="profile-shortcut">
+                <div class="profile-icon-small">👤</div>
+                <span>Your Profile</span>
+            </div>
+            <ul>
+                <li><a href="#"><i class="fas fa-newspaper"></i> News Feed</a></li>
+                <li><a href="#"><i class="fas fa-user-friends"></i> Friends</a></li>
+                <li><a href="#"><i class="fas fa-users"></i> Groups</a></li>
+                <!-- <li><a href="#"><i class="fas fa-store"></i> Marketplace</a></li> -->
+                <li><a href="#"><i class="fas fa-tv"></i> Watch</a></li>
+                <li><a href="#"><i class="fas fa-history"></i> Memories</a></li>
+                <li><a href="#"><i class="fas fa-bookmark"></i> Saved</a></li>
+                <li><a href="#"><i class="fas fa-flag"></i> Pages</a></li>
+                <!-- <li><a href="#"><i class="fas fa-calendar-alt"></i> Events</a></li> -->
+                <li><a href="#"><i class="fas fa-chevron-down"></i> See More</a></li>
+            </ul>
+        </div>
+
+        <div class="feed">
+            <div class="create-post">
+                <div class="post-input">
+                    <div class="profile-icon-small">👤</div>
+                    <input type="text" placeholder="What's on your mind?">
+                </div>
+                <div class="post-options">
+                    <button><i class="fas fa-video"></i> Live Video</button>
+                    <button><i class="fas fa-images"></i> Photo/Video</button>
+                    <button><i class="far fa-smile"></i> Feeling/Activity</button>
+                </div>
+            </div>
+            
+            <div class="stories">
+                <div class="story">
+                    <div class="story-icon">👤</div>
+                    <div class="story-name">Your Story</div>
+                </div>
+                <!-- <div class="story"> -->
+                    <!-- <div class="story-icon friend1">👤</div> -->
+                    <!-- <div class="story-name">John Doe</div> -->
+                <!-- </div>*/ -->
+                <div class="story">
+                    <div class="story-icon friend2">👤</div>
+                    <div class="story-name">Jane Smith</div>
+                </div>
+                <div class="story">
+                    <div class="story-icon friend3">👤</div>
+                    <div class="story-name">Mike Johnson</div>
+                </div>
+                <div class="story">
+                    <div class="story-icon friend4">👤</div>
+                    <div class="story-name">Sarah Williams</div>
+                </div>
+                <div class="story">
+                    <div class="story-icon friend1">👤</div>
+                    <div class="story-name">David Brown</div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-header">
+                    <div class="post-user-icon">👤</div>
+                    <div class="post-user-info">
+                        <div class="post-user">John Doe</div>
+                        <div class="post-time">2 hrs ago · <i class="fas fa-globe-americas"></i></div>
+                    </div>
+                    <div class="post-menu">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>Just finished an amazing hike in the mountains! The view was absolutely breathtaking. 🏔️ #NatureLover #Hiking</p>
+                </div>
+                <div class="post-image">
+                    <div class="image-placeholder">🏔️ Mountain View</div>
+                </div>
+                <div class="post-stats">
+                    <div class="likes">
+                        <i class="fas fa-thumbs-up"></i> 120
+                    </div>
+                    <div class="comments-shares">
+                        <span>45 Comments</span>
+                        <span>12 Shares</span>
+                    </div>
+                </div>
+                <div class="post-actions">
+                    <button><i class="fas fa-thumbs-up"></i> Like</button>
+                    <button><i class="fas fa-comment"></i> Comment</button>
+                    <button><i class="fas fa-share"></i> Share</button>
+                </div>
+                <div class="post-comments">
+                    <div class="comment">
+                        <div class="comment-icon">👤</div>
+                        <div class="comment-content">
+                            <div class="comment-user">Jane Smith</div>
+                            <div class="comment-text">Wow, that looks incredible! Where was this taken?</div>
+                            <div class="comment-actions">
+                                <span>Like</span>
+                                <span>Reply</span>
+                                <span>2 hrs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-container">
+                <div class="post-header">
+                    <div class="post-user-icon">👤</div>
+                    <div class="post-user-info">
+                        <div class="post-user">Jane Smith</div>
+                        <div class="post-time">5 hrs ago · <i class="fas fa-user-friends"></i></div>
+                    </div>
+                    <div class="post-menu">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>Beautiful sunset today! 🌅 Nothing beats ending the day with such a view. #Sunset #NaturePhotography</p>
+                </div>
+                <div class="post-image">
+                    <div class="image-placeholder">🌅 Sunset Image</div>
+                </div>
+                <div class="post-stats">
+                    <div class="likes">
+                        <i class="fas fa-thumbs-up"></i> 245
+                    </div>
+                    <div class="comments-shares">
+                        <span>89 Comments</span>
+                        <span>34 Shares</span>
+                    </div>
+                </div>
+                <div class="post-actions">
+                    <button><i class="fas fa-thumbs-up"></i> Like</button>
+                    <button><i class="fas fa-comment"></i> Comment</button>
+                    <button><i class="fas fa-share"></i> Share</button>
+                </div>
+            </div>
+            
+            <div class="post-container">
+                <div class="post-header">
+                    <div class="post-user-icon">👤</div>
+                    <div class="post-user-info">
+                        <div class="post-user">Mike Johnson</div>
+                        <div class="post-time">Yesterday at 8:45 PM · <i class="fas fa-user-friends"></i></div>
+                    </div>
+                    <div class="post-menu">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>Just got my new laptop! Excited to start working on some new projects. 🔥 #Tech #NewGear</p>
+                </div>
+                <div class="post-stats">
+                    <div class="likes">
+                        <i class="fas fa-thumbs-up"></i> 89
+                    </div>
+                    <div class="comments-shares">
+                        <span>23 Comments</span>
+                        <span>7 Shares</span>
+                    </div>
+                </div>
+                <div class="post-actions">
+                    <button><i class="fas fa-thumbs-up"></i> Like</button>
+                    <button><i class="fas fa-comment"></i> Comment</button>
+                    <button><i class="fas fa-share"></i> Share</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-sidebar">
+            <div class="sponsored">
+                <h3>Sponsored</h3>
+                <div class="ad-item">
+                    <div class="ad-image">
+                        <div class="image-placeholder">Ad Image</div>
+                    </div>
+                    <div class="ad-content">
+                        <p>Special Offer - Limited Time Only!</p>
+                        <span>company.com</span>
+                    </div>
+                </div>
+                <!-- <div class="ad-item">
+                    <div class="ad-image">
+                        <div class="image-placeholder">Ad Image</div>
+                    </div>
+                    <div class="ad-content">
+                        <p>New Collection Available Now</p>
+                        <span>shop.com</span>
+                    </div>
+                </div> -->
+            </div>
+            <div class="contacts">
+                <div class="contacts-header">
+                    <h3>Contacts</h3>
+                    <div class="contacts-icons">
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <ul>
+                    <!-- <li>
+                        <div class="contact-icon">👤</div>
+                        <span>John Doe</span>
+                    </li>
+                    <li>
+                        <div class="contact-icon">👤</div>
+                        <span>Jane Smith</span>
+                    </li>
+                    <li>
+                        <div class="contact-icon">👤</div>
+                        <span>Mike Johnson</span>
+                    </li> -->
+                    <li>
+                        <div class="contact-icon">👤</div>
+                        <span>Sarah Williams</span>
+                    </li>
+                    <li>
+                        <div class="contact-icon">👤</div>
+                        <span>David Brown</span>
+                    </li>
+                    <li>
+                        <div class="contact-icon">👤</div>
+                        <span>Emily Davis</span>
+                    </li>
+                    <li>
+                        <div class="contact-icon">👤</div>
+                        <span>Robert Wilson</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Privacy</a> · 
+            <a href="#">Terms</a> · 
+            <a href="#">Advertising</a> · 
+            <a href="#">Cookies</a> · 
+            <a href="#">More</a>
+        </div>
+        <div class="copyright">
+            Meta © 2023
+        </div>
+    </footer>
+</body>
+</html>
